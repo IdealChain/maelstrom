@@ -20,6 +20,7 @@
                                 [g-counter :as g-counter]
                                 [pn-counter :as pn-counter]
                                 [lin-kv :as lin-kv]
+                                [fifo-kv :as fifo-kv]
                                 [txn-list-append :as txn-list-append]
                                 [txn-rw-register :as txn-rw-register]
                                 [unique-ids :as unique-ids]]
@@ -42,6 +43,7 @@
    :g-counter       g-counter/workload
    :pn-counter      pn-counter/workload
    :lin-kv          lin-kv/workload
+   :fifo-kv         fifo-kv/workload
    :txn-list-append txn-list-append/workload
    :txn-rw-register txn-rw-register/workload
    :unique-ids      unique-ids/workload})
